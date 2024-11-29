@@ -36,7 +36,28 @@ This repository contains the solution for the **React Development Challenge** by
 
 ---
 
-## Folder Structure
+
+## Project Folder Structure
+
+```
+src/
+├── assets/         # Static assets like images, icons, etc.
+├── components/     # Reusable components
+│   ├── Guard/      # Route guard for protected routes
+│   ├── Loader/     # Loader component for API calls
+│   ├── Middleware/ # Middleware utilities
+│   ├── NotFound/   # Component for 404 pages
+│   └── PanelMenu/  # Sidebar or panel menu component
+├── context/        # React Context for state management
+├── layouts/        # Layout components
+├── pages/          # Page-level components
+│   ├── Auth/       # Authentication pages (Login/Register)
+│   └── Profile/    # Profile (Dashboard) page
+├── routes/         # Application routes and navigation
+│   └── routes.jsx  # Route configuration
+├── index.jsx       # Main entry point
+```
+
 
 ## Getting Started
 
