@@ -58,6 +58,23 @@ src/
 ├── index.jsx       # Main entry point
 ```
 
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the following installed on your system:
+- Node.js
+- npm or yarn
+- Vite (for development server)
+
+### Installation
+1. Clone the repository: 
+   git clone <repository-url>
+   cd orthoplex-task
+2. npm install
+3. npm run dev
+4. http://localhost:3000
+
 ## User Credentials
 
 The following users can be used to log in to the application during testing:
@@ -91,23 +108,6 @@ The following users can be used to log in to the application during testing:
    - Email: `1111@mail.com`
    - Password: `1111`
 ```
-
-## Getting Started
-
-### Prerequisites
-Ensure you have the following installed on your system:
-- Node.js
-- npm or yarn
-- Vite (for development server)
-
-### Installation
-1. Clone the repository: 
-   git clone <repository-url>
-   cd orthoplex-task
-2. npm install
-3. npm run dev
-4. http://localhost:3000
-
 
 # Key Libraries Used
 
