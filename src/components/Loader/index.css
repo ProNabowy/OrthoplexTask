@@ -1,0 +1,39 @@
+.loading-page {
+    position: relative;
+    border: solid #fe6929;
+    border-width: 0 0 0 .4em;
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+    animation: loader .9s linear infinite;
+}
+
+.loading-page::before {
+    content: '';
+    position: absolute;
+    border-top: .4em solid #fe6929;
+    border-right: .4em solid transparent;
+    border-bottom: .4em solid transparent;
+    border-left: .4em #7a2be13e;
+    border-radius: 50%;
+    transform: translate(-3%, -1%) rotate(-50deg);
+    height: 100%;
+    width: 100%;
+}
+
+.loading-page::after {
+    content: '';
+    position: absolute;
+    border-top-right-radius: 3em;
+    border-bottom-right-radius: 3em;
+    transform: translate(760%, 4%) rotate(-10deg);
+    background: #fe6929;
+    height: .57em;
+    width: .2em;
+}
+
+@keyframes loader {
+    to {
+        transform: rotate(360deg);
+    }
+}

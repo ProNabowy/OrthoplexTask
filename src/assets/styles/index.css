@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ROOT
+============================== */
+:root {
+  font-size: 16px;
+}
+
+label {
+  @apply text-white font-medium text-sm mb-1 block cursor-pointer;
+}
+
+label.error {
+  @apply text-danger
+}
+
+input {
+  @apply p-3 min-h-[50px] rounded-[6px] bg-transparent border border-[#1B1E25] w-full text-white
+}
+
+input.error {
+  @apply text-danger border-danger
+}
+
+button {
+  @apply text-white font-medium py-2 px-8 rounded-sm bg-primary
+}
+
+.error {
+  @apply text-danger text-[14px] mt-1;
+}
