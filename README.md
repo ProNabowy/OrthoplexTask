@@ -58,6 +58,39 @@ src/
 ├── index.jsx       # Main entry point
 ```
 
+## User Credentials
+
+The following users can be used to log in to the application during testing:
+
+```
+1. **User 1**
+   - Email: `niya@gmail.com`
+   - Password: `123456789`
+
+2. **User 2**
+   - Email: `das@gmail.com`
+   - Password: `dasdsa`
+
+3. **User 3**
+   - Email: `nico@gmail.com`
+   - Password: `1243`
+
+4. **User 4**
+   - Email: `anas@gmail.com`
+   - Password: `12345`
+
+5. **User 5**
+   - Email: `mahmoudramdn20001352000@gmail.com`
+   - Password: `7745687234hfjkhfdfasiu8493295`
+
+6. **User 6**
+   - Email: `liyan@gmail.com`
+   - Password: `12345678`
+
+7. **User 7**
+   - Email: `1111@mail.com`
+   - Password: `1111`
+```
 
 ## Getting Started
 
